@@ -1,0 +1,106 @@
+Class 5
+Scanner - it is class that is used to take input from a user
+
+Scanner scanner;
+scan=new Scanner(System.in);
+
+I want to capture sentence:
+String sentence=scanner.nextLine();
+
+I want to capture number
+int number=scanner.nextInt();
+
+I want to capture 1 word
+String word=scanner.next();
+
+I want to capture 1 character
+char singleCharacter=scanner.next().chartAt(0);
+
+IF STATEMENT SYNTAX
+
+if (boolean expression){
+
+
+}else {
+
+}
+if user enter C
+age=37;
+
+if (gender=='F') {
+
+	if (age>25){
+		Woman
+	}else {
+		Girl
+	}
+}else if (gender=='M'){
+	if (age>25){
+		Man
+	}else {
+		Boy
+	}
+
+}else {
+	Enter valid charcter F or M
+}
+
+OPERATORS in JAVA:
+Assignment =
+Arithmetic +, -, *, /, %
+Relational >, <, >=, <=, ==, !=
+Logical && , ||
+
+&& Logical AND
+|| Logical OR
+
+if (num>0){
+
+}
+
+I need to define whether nu,ber that is entered from user is small, large and extra large
+
+if number is > 1 but smalled than 10 --> small
+if number is >11 but smaller than 100 --> number is big
+
+AND (&&)
+
+if ( true && true) --> TRUE
+if ( true && false) --> FALSE
+if (false && true) --> FALSE
+if (false && false) --> FALSE
+
+OR (||)
+
+if (true || true) --> TRUE
+if (true || false) --> TRUE
+if (false || true) --> TRUE
+if (false || false) --> FALSE
+
+You are working in sales and have to calculate commission for the employees;
+
+You need to ask user a sales amount and based on the amout you need to define their commission
+
+if user sold products for more than $10 but less than 100 --> commision is 10%
+
+if sales is more than 100 but less then 200 --> commision is 20%
+
+if sales is more than 200 but less then 500 --> commision is 30%
+
+if sales is more than 500 --> commision is 50%
+
+You program should print How much money in comission user will get
+
+
+
+
+
+
+
+
+
+
+
+
+
+

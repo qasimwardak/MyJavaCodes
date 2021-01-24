@@ -1,0 +1,40 @@
+Class 6
+
+Logical Operators:
+&& - both conditions must be true to give --> TRUE
+|| - at leats 1 condition needs to be true to give --> TRUE
+
+NOT opearator --> reverse the condition
+
+boolean isJavaEasy=false;
+
+if(!isJavaEasy) {
+	System.out.println("Please try to spend more time with Java");
+}
+
+String str="Mohammad";
+String str1=             "mohammad";
+
+str.equals(str1) ---> False
+str.equalsIgnoreCase(str1) --> TRUE
+
+-----------------------------------------------------------
+
+we are thinking of going shopping:
+
+first we check is store has sale:
+	if no sale --> no shopping
+	if sale --> we go for shopping
+			ask for the price:
+
+			if price from 10 to 50 --> we give 10% discount
+			if price is between 50 -100 --> 20 % discount
+			if price is between 100 -500 --> 40 % discount
+			if price is more than 500 --> 50 % discount
+
+			Your program should calculate final prcie that you will after discount!
+
+
+
+
+

@@ -1,0 +1,40 @@
+Class 10
+
+nested loops - loop inside another loop;
+
+boolean condition=true;
+
+while(condition){
+
+	System.out.println("I am while loop");
+
+	for (int i=1; i<8; i++){
+		System.out.println("I am for loop");
+		break;
+	}
+
+}
+------------------------------------------------------------------------------
+for (int i=1; i<=3; i++){
+
+	System.out.println("I am for loop");
+
+	while(condition){
+
+		System.out.println("I am while loop");
+
+		break;
+	}
+}
+-----------------------------------------------------------------------------
+
+arrays in java
+
+arrays are container that store data/values of same type
+
+
+
+
+
+
+

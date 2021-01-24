@@ -1,0 +1,67 @@
+Class 4
+
+Conditional statements:
+	1. If statement
+	2. Switch case
+
+if (boolean expression) {
+
+	code.....
+}
+-----------------------------
+if (boolean expression/true) {
+	code.....
+}else {//false
+
+	code...
+}
+
+Casting:
+	widening/implicit casting
+	int i=10;
+	double d=10;
+
+	narrowing/explicit casting
+	byte b=(byte)1099899;
+
+	int e=(int)10.99;
+
+int num=12;
+num+=100;//112
+
+-------------------------
+
+To compare 2 numbers
+
+if (condition true){
+	code.....
+}else if(condition true) {
+	code...
+}else if (condition true) {
+	code...
+}else {//if all conditon false
+
+}
+
+--------------------------------
+Nested If - it is if statement inside another if
+
+if (boolean) {
+	code....
+
+	if (){
+
+	}
+
+}else {
+
+}
+
+
+
+
+
+
+
+
+

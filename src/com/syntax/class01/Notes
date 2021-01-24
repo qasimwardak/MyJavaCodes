@@ -1,0 +1,84 @@
+Java Class 1
+
+Java is a case sensitive
+Class vs class
+
+javabatch8
+JavaBatch8
+
+thisismyfirstprogrammingproject
+
+ThisIsMyFirstProgrammingProject
+
+ThisIsmyFirst
+
+To increase a font
+for mac command+
+for windows ctr+
+
+To format code
+
+for mac command+shift+f
+for windos ctrl+shift+f
+
+Task
+Create a Java class and name it My Second Program
+Inside the class write to 2 statemnets to print 2 different messages
+
+Task:
+Create a java program/class called Syntax Programmer
+
+The output of your program should look like that.
+
+I am a Java Programmer. I study at Syntax.
+I love Java!
+!!!
+
+Please write each sentence  in separate statements!
+
+Keywords - are reserved words in Java (public, class, void, pachage, break, final....)
+
+Identifiers - simply a name that we will be giving to our classes, variables and method.
+
+Rules for identifiers:
+
+1. We cannot use keywords as identifiers
+2. Identifier should not start with number, but it can have numbers as second, 3 or last character
+3. Identifier cannot start with special characters, EXCEPT
+	($, _)
+
+Naming Conventions
+
+1. we should follow camel casing
+2. when we create classes they usually will start with UpperCase and follow camelcasing
+3. when we create variables they usually should start with lowercase and follow camelcasing
+
+2 DataTypes in Java
+
+	Primitive - 8 primitive datatypes we have in Java
+	Non - primitive
+
+Primitives datatypes:
+
+	numeric: whole numbers
+				byte
+				short
+				int
+				long
+			floating points:
+				float
+				double
+
+	non numeric: single character
+					char
+
+				to store true or false
+					boolean
+
+
+
+
+
+
+
+

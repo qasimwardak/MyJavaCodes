@@ -1,0 +1,91 @@
+Class 3
+
+int num=10;
+
+int num1;//declaration
+
+num1=11;initialization/assign value
+
+num1=12;//reassign;
+
+String str="yfyfygikgiugu867575";
+
+String str1="Hello";
+
+String str2 ="Friends";
+
+System.out.println(str1 +" " + str2);
+
+Operators in Java
+
+	Assignment Operator
+	=
+
+	Arithmetic Operators:
+	+, -, *, /, %
+
+	Compound Operators
+	+=, -=, *=, /=, %=
+
+	Relational & Equality Operators
+	>, >=, <, <=, ==, !=
+
+Casting in Java --> converting 1 type to another
+2 type of casting:
+	widening - implicit (automatic)
+	byte->short->int->long->float->double
+
+	narrowing - explicit (manual)
+	double-> float->long->int->short->byte
+
+
+To debug:
+ 1. place brakpoint at any line ou would like to start debugging
+ 2. right click --> debug
+ 3. if some window pops up --> click on switch
+ 4. and then click on step over to debug line by line
+ 5. if you want to stop debuggin click on red square
+
+Control Flow:
+
+	if statement
+
+	syntax for if statement
+
+	if (boolean expression) {
+			code.......
+	}else {
+		code....
+	}
+-------------------------------------------------------------------------
+
+boolean sleepy=true;
+
+//if not sleepy --> I will study otherwise I will take a nap
+
+if (sleepy==true){
+
+	System.out.println("I will take a nap");
+
+} esle {
+
+	System.out.println("I will study some Java");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

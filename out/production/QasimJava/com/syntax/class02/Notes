@@ -1,0 +1,31 @@
+Class 2
+
+Project:
+	JRE
+	src :
+		packages:
+				classes:
+						main method
+
+In Java have keywords and identifiers
+Keywords: long, break, if, public, byte....
+Identifiers: names we give to classes. mehods, variables
+	rules: no space, cant start with number,don't use keywords, no special charactres except $ or _
+	conventions: follow camel casing
+				Classes should start with Uppercase
+				variables & methods starts with lowercase
+
+DataTypes in Java:
+1. primitive:
+			total 8:
+					byte, short, int, long
+					float, double
+					char, boolean
+
+2. non primitive:
+
+We store values into variables:
+	Rule to create a variable:
+		1. datatype
+		2. name
+		3. value (that will match the datatype)

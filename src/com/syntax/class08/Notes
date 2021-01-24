@@ -1,0 +1,79 @@
+Class 8
+
+Loops in Java:
+	while
+	do while
+	for
+	enhanced for
+
+while loop we use when we don’t know how many times the action should be repeated
+
+int a=1;
+
+while(a<=5){
+
+	code;
+	a++;//2, 3, 4, 5, 6
+}
+--------------------------------------------------------
+int b=1;
+
+while(b<=5){
+
+	code;
+	b--;// 0, -1, -2, -3
+}
+
+do while loop we use when we don’t know how many times the action should be repeated
+
+int c=1;
+
+do {
+
+	code;
+	c++;
+}while(c>5);
+
+
+do while vs while
+
+while check condition first and then does action if condition is true
+do while does action and then check condition
+
+Good Morning 5 times;
+
+for (int i=1; i<=5; i++) {
+	System.out.println("Good Morning");
+}
+
+Keywords that can be used inside loops
+
+break --> breaks loop and skips all code that you have after break inside the loop
+
+continue --> skip 1 iteration
+
+Nested Loops
+
+for (int i=1; i<3; i++){
+
+			System.out.println("I am an outer loop ");
+
+			for (int y=0; y<=3; y++) {
+
+				System.out.println("I am an inner loop ");
+			}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Class 11
+
+String[] array=new String[3];
+
+String array[];
+
+Arrays are fixed data structure;
+Elements stored based on indexes(starts with 0);
+
+//I would like to find largest number from the array?
+
+int[] array= {10, 0, 20, 8, -1, 77, 56,};
+
+int max=array[0];

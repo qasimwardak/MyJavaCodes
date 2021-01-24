@@ -1,0 +1,109 @@
+Class 7
+
+switch - it is another conditional statement similar to if but with some limitations
+
+SWITCH SYNTAX:
+
+switch(variable) {
+
+	case value1:
+		code;
+		break;
+	case value2:
+		code;
+		break;
+	default:
+		code;
+}
+
+value MUST be same TYPE as variable
+
+True:
+1. switch doesnt work with boolean, double, long and float
+
+2. every switch statement can be written using if condition
+
+False:
+1. every if condition can be written using switch statement (cant work with logical & realtional (>, >=, <, <=)operators)
+
+String timeOfDay="Morning";
+String day="Saturday";
+
+switch(timeOfDay) {
+
+	case "Morning":
+		SOPln ("Good Morning");
+		break;
+	case "Noon":
+		SOPln ("Good Afternoon");
+		break;
+	case "Evening":
+		SOPln ("Good Evening");
+		break;
+	case "Night":
+		SOPln ("Good Night");
+		break;
+	case "Saturday":
+
+	default:
+		SOPln ("N/A");
+}
+
+Loops in Java - executes same block of code multiple times
+				Help to avoid repetative code
+
+	while
+	do while
+	for
+	enahnced for loop/advanced for loop/ for each loop
+
+while loop:
+
+int time =13;
+
+if (time>12){ //conditon is true
+	System.out.println("good day"); //code executes 1 time
+}
+
+while (time>12){
+	System.out.println("good day");
+}
+
+
+WHILE SYNTAX
+
+initialize variable;
+
+while (true){
+	code;
+	incerement/decrement;
+}
+
+
+String day= "Saturday";
+
+if (day){
+	SOPln("My favorite Java class");
+}
+
+Do While loop
+
+initilize variable
+
+do {
+	code;
+
+}while(true condition);
+
+DO WHILE VS WHILE
+
+while --> first checks condition & then perform action
+do while --> first performs action & then checks condition
+
+if condtion is false --> do while will execute code ONCE compare to while loop --> no execution
+
+97% of tim we use while loop compare to do while
+
+
+
+
